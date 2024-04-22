@@ -71,8 +71,7 @@ Your site should now be accessible at `http://hostname:port`. Now you can follow
 
 You may wish to deploy Shynet on Heroku. Note that Heroku's free offerings (namely the free Postgres addon) are unlikely to support running any Shynet instance that records more than a few hundred requests per day &mdash; the database will quickly fill up. In most cases, the more cost-effective option for running Shynet is renting a VPS from a full cloud service provider. However, if you're sure Heroku is the right option for you, or you just want to try Shynet out, you can use the Quick Deploy button then follow the steps below. 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/milesmcc/shynet/tree/master)
-
+Build.io
 Once you deploy, you'll need to setup an admin user and whitelabel before you can use Shynet. Do that with the following commands:
 
 1. `heroku run --app=<your app> ./manage.py registeradmin <your email>`
